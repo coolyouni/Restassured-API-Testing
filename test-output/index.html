@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\younas.rehman\eclipse-workspace\RestAssuredProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 3 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_07_Verify_required_email(Martin, Guptell, 0511144, Pakistan1122)">post_test_07_Verify_required_email(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_08_Verify_incorrect_email(Martin, Guptell, 0511144, Pakistan1122)">post_test_08_Verify_incorrect_email(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_13_Verify_NoInDigit_Phone(Martin, Guptell, 0511144, Pakistan1122)">post_test_13_Verify_NoInDigit_Phone(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="Get_test_03_Account_verify_without_confirmation(Martin, Guptell, 0511144, Pakistan1122)">Get_test_03_Account_verify_without_confirmation(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Forgot_Password_test_cases" class="method navigator-link" hash-for-method="post_test_01_Account_verify_without_confirmation">post_test_01_Account_verify_without_confirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Company" class="method navigator-link" hash-for-method="post_test_01_Create_company">post_test_01_Create_company</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_01_Verify_new_account_register_status_code(Martin, Guptell, 0511144, Pakistan1122)">post_test_01_Verify_new_account_register_status_code(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_02_Verify_already_registered_account(Martin, Guptell, 0511144, Pakistan1122)">post_test_02_Verify_already_registered_account(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Forgot_Password_test_cases" class="method navigator-link" hash-for-method="post_test_02_verify_incorrect_email_forogt_password">post_test_02_verify_incorrect_email_forogt_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Forgot_Password_test_cases" class="method navigator-link" hash-for-method="post_test_03_verify_required_email_for_forgot_pwd">post_test_03_verify_required_email_for_forgot_pwd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Forgot_Password_test_cases" class="method navigator-link" hash-for-method="post_test_04_change_password_with_wrong_old_password">post_test_04_change_password_with_wrong_old_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Forgot_Password_test_cases" class="method navigator-link" hash-for-method="post_test_05_Minimum_length_password_for_changing_password">post_test_05_Minimum_length_password_for_changing_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_05_Verify_required_firstname(Martin, Guptell, 0511144, Pakistan1122)">post_test_05_Verify_required_firstname(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_06_Verify_required_Lastname(Martin, Guptell, 0511144, Pakistan1122)">post_test_06_Verify_required_Lastname(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Forgot_Password_test_cases" class="method navigator-link" hash-for-method="post_test_06_change_password">post_test_06_change_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_09_Verify_confirm_password_required(Martin, Guptell, 0511144, Pakistan1122)">post_test_09_Verify_confirm_password_required(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_10_Verify_maxlength_firstname(Martin, Guptell, 0511144, Pakistan1122)">post_test_10_Verify_maxlength_firstname(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_11_Verify_maxlength_LastName(Martin, Guptell, 0511144, Pakistan1122)">post_test_11_Verify_maxlength_LastName(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_12_Verify_maxlength_Phone(Martin, Guptell, 0511144, Pakistan1122)">post_test_12_Verify_maxlength_Phone(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_14_Verify_DiffrentPasswords(Martin, Guptell, 0511144, Pakistan1122)">post_test_14_Verify_DiffrentPasswords(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="post_test_15_Verify_MinLenghtPassword(Martin, Guptell, 0511144, Pakistan1122)">post_test_15_Verify_MinLenghtPassword(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.Account_Register_test_cases" class="method navigator-link" hash-for-method="test_case_04_verify_account_is_verify(Martin, Guptell, 0511144, Pakistan1122)">test_case_04_verify_account_is_verify(Martin, Guptell, 0511144, Pakistan1122)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.Account_Register_test_cases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_07_Verify_required_email(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_07_Verify_required_email(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_07_Verify_required_email</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Comparison of  Required email error code expected [124] but found [126]
+	at TestCases.Account_Register_test_cases.post_test_07_Verify_required_email(Account_Register_test_cases.java:321)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_08_Verify_incorrect_email(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_08_Verify_incorrect_email(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_08_Verify_incorrect_email</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;io.restassured.response.Response.path(String, String[])&quot; is null
+	at TestCases.Account_Register_test_cases.post_test_08_Verify_incorrect_email(Account_Register_test_cases.java:356)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_13_Verify_NoInDigit_Phone(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_13_Verify_NoInDigit_Phone(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_13_Verify_NoInDigit_Phone</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Comparison of NonInDigit Phone  error code expected [128] but found [127]
+	at TestCases.Account_Register_test_cases.post_test_13_Verify_NoInDigit_Phone(Account_Register_test_cases.java:536)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Forgot_Password_test_cases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_01_Account_verify_without_confirmation">
+                  </a> <!-- post_test_01_Account_verify_without_confirmation -->
+                  <span class="method-name">post_test_01_Account_verify_without_confirmation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_02_verify_incorrect_email_forogt_password">
+                  </a> <!-- post_test_02_verify_incorrect_email_forogt_password -->
+                  <span class="method-name">post_test_02_verify_incorrect_email_forogt_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_03_verify_required_email_for_forgot_pwd">
+                  </a> <!-- post_test_03_verify_required_email_for_forgot_pwd -->
+                  <span class="method-name">post_test_03_verify_required_email_for_forgot_pwd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_04_change_password_with_wrong_old_password">
+                  </a> <!-- post_test_04_change_password_with_wrong_old_password -->
+                  <span class="method-name">post_test_04_change_password_with_wrong_old_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_05_Minimum_length_password_for_changing_password">
+                  </a> <!-- post_test_05_Minimum_length_password_for_changing_password -->
+                  <span class="method-name">post_test_05_Minimum_length_password_for_changing_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_06_change_password">
+                  </a> <!-- post_test_06_change_password -->
+                  <span class="method-name">post_test_06_change_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Company</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_01_Create_company">
+                  </a> <!-- post_test_01_Create_company -->
+                  <span class="method-name">post_test_01_Create_company</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Account_Register_test_cases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_test_03_Account_verify_without_confirmation(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- Get_test_03_Account_verify_without_confirmation(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">Get_test_03_Account_verify_without_confirmation</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_01_Verify_new_account_register_status_code(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_01_Verify_new_account_register_status_code(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_01_Verify_new_account_register_status_code</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_02_Verify_already_registered_account(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_02_Verify_already_registered_account(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_02_Verify_already_registered_account</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_05_Verify_required_firstname(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_05_Verify_required_firstname(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_05_Verify_required_firstname</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_06_Verify_required_Lastname(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_06_Verify_required_Lastname(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_06_Verify_required_Lastname</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_09_Verify_confirm_password_required(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_09_Verify_confirm_password_required(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_09_Verify_confirm_password_required</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_10_Verify_maxlength_firstname(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_10_Verify_maxlength_firstname(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_10_Verify_maxlength_firstname</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_11_Verify_maxlength_LastName(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_11_Verify_maxlength_LastName(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_11_Verify_maxlength_LastName</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_12_Verify_maxlength_Phone(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_12_Verify_maxlength_Phone(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_12_Verify_maxlength_Phone</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_14_Verify_DiffrentPasswords(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_14_Verify_DiffrentPasswords(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_14_Verify_DiffrentPasswords</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_test_15_Verify_MinLenghtPassword(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- post_test_15_Verify_MinLenghtPassword(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">post_test_15_Verify_MinLenghtPassword</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_case_04_verify_account_is_verify(Martin, Guptell, 0511144, Pakistan1122)">
+                  </a> <!-- test_case_04_verify_account_is_verify(Martin, Guptell, 0511144, Pakistan1122) -->
+                  <span class="method-name">test_case_04_verify_account_is_verify</span>
+                  <span class="parameters">(Martin, Guptell, 0511144, Pakistan1122)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\younas.rehman\eclipse-workspace\RestAssuredProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;phone_number&quot; value=&quot;0316514444&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.Account_Register_test_cases&quot;/&gt;
+      &lt;class name=&quot;TestCases.Company&quot;/&gt;
+      &lt;class name=&quot;TestCases.Forgot_Password_test_cases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_case_04_verify_account_is_verify')
+data.setCell(0, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(0, 3, 26611);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'post_test_01_Verify_new_account_register_status_code')
+data.setCell(1, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(1, 3, 6811);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'post_test_06_change_password')
+data.setCell(2, 2, 'TestCases.Forgot_Password_test_cases')
+data.setCell(2, 3, 3197);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'post_test_04_change_password_with_wrong_old_password')
+data.setCell(3, 2, 'TestCases.Forgot_Password_test_cases')
+data.setCell(3, 3, 2952);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'post_test_05_Minimum_length_password_for_changing_password')
+data.setCell(4, 2, 'TestCases.Forgot_Password_test_cases')
+data.setCell(4, 3, 2781);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'post_test_10_Verify_maxlength_firstname')
+data.setCell(5, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(5, 3, 1903);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'post_test_13_Verify_NoInDigit_Phone')
+data.setCell(6, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(6, 3, 1811);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'post_test_01_Create_company')
+data.setCell(7, 2, 'TestCases.Company')
+data.setCell(7, 3, 1772);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'post_test_06_Verify_required_Lastname')
+data.setCell(8, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(8, 3, 1770);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'post_test_01_Account_verify_without_confirmation')
+data.setCell(9, 2, 'TestCases.Forgot_Password_test_cases')
+data.setCell(9, 3, 1721);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'post_test_12_Verify_maxlength_Phone')
+data.setCell(10, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(10, 3, 1627);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'post_test_14_Verify_DiffrentPasswords')
+data.setCell(11, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(11, 3, 1517);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'post_test_11_Verify_maxlength_LastName')
+data.setCell(12, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(12, 3, 1511);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'post_test_08_Verify_incorrect_email')
+data.setCell(13, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(13, 3, 1447);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'post_test_05_Verify_required_firstname')
+data.setCell(14, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(14, 3, 1437);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'post_test_07_Verify_required_email')
+data.setCell(15, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(15, 3, 1400);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'post_test_15_Verify_MinLenghtPassword')
+data.setCell(16, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(16, 3, 1215);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'post_test_03_verify_required_email_for_forgot_pwd')
+data.setCell(17, 2, 'TestCases.Forgot_Password_test_cases')
+data.setCell(17, 3, 1192);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'post_test_02_verify_incorrect_email_forogt_password')
+data.setCell(18, 2, 'TestCases.Forgot_Password_test_cases')
+data.setCell(18, 3, 1141);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'post_test_02_Verify_already_registered_account')
+data.setCell(19, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(19, 3, 1120);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'post_test_09_Verify_confirm_password_required')
+data.setCell(20, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(20, 3, 1075);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Get_test_03_Account_verify_without_confirmation')
+data.setCell(21, 2, 'TestCases.Account_Register_test_cases')
+data.setCell(21, 3, 1029);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Account_Register_test_cases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">post_test_01_Verify_new_account_register_status_code(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_02_Verify_already_registered_account(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">6893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Get_test_03_Account_verify_without_confirmation(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">8017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test_case_04_verify_account_is_verify(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">9049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_05_Verify_required_firstname(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">35665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_06_Verify_required_Lastname(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">37107 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">post_test_07_Verify_required_email(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">38880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">post_test_08_Verify_incorrect_email(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">40284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_09_Verify_confirm_password_required(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">41735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_10_Verify_maxlength_firstname(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">42813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_11_Verify_maxlength_LastName(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">44718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_12_Verify_maxlength_Phone(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">46232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">post_test_13_Verify_NoInDigit_Phone(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">47863 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_14_Verify_DiffrentPasswords(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">49678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_15_Verify_MinLenghtPassword(Martin, Guptell, 0511144, Pakistan1122)</span>
+                <span class="method-start">51198 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Company</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">post_test_01_Create_company</span>
+                <span class="method-start">52416 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Forgot_Password_test_cases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">post_test_01_Account_verify_without_confirmation</span>
+                <span class="method-start">54199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_02_verify_incorrect_email_forogt_password</span>
+                <span class="method-start">55923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_03_verify_required_email_for_forgot_pwd</span>
+                <span class="method-start">57066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_04_change_password_with_wrong_old_password</span>
+                <span class="method-start">58260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_05_Minimum_length_password_for_changing_password</span>
+                <span class="method-start">61215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">post_test_06_change_password</span>
+                <span class="method-start">63998 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

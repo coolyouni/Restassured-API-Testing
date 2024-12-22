@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="19" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-07T11:02:04 PKT" name="Suite" finished-at="2022-06-07T11:03:11 PKT" duration-ms="67274">
+    <groups>
+    </groups>
+    <test started-at="2022-06-07T11:02:04 PKT" name="Test1" finished-at="2022-06-07T11:03:11 PKT" duration-ms="67274">
+      <class name="TestCases.Account_Register_test_cases">
+        <test-method signature="post_test_01_Verify_new_account_register_status_code(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:04 PKT" name="post_test_01_Verify_new_account_register_status_code" data-provider="account_register_data" finished-at="2022-06-07T11:02:11 PKT" duration-ms="6811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_01_Verify_new_account_register_status_code -->
+        <test-method signature="post_test_02_Verify_already_registered_account(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:11 PKT" name="post_test_02_Verify_already_registered_account" data-provider="account_register_data" finished-at="2022-06-07T11:02:12 PKT" duration-ms="1120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_02_Verify_already_registered_account -->
+        <test-method signature="Get_test_03_Account_verify_without_confirmation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:12 PKT" name="Get_test_03_Account_verify_without_confirmation" data-provider="account_register_data" finished-at="2022-06-07T11:02:13 PKT" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_test_03_Account_verify_without_confirmation -->
+        <test-method signature="test_case_04_verify_account_is_verify(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:13 PKT" name="test_case_04_verify_account_is_verify" data-provider="account_register_data" finished-at="2022-06-07T11:02:40 PKT" duration-ms="26611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case_04_verify_account_is_verify -->
+        <test-method signature="post_test_05_Verify_required_firstname(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:40 PKT" name="post_test_05_Verify_required_firstname" data-provider="account_register_data" finished-at="2022-06-07T11:02:41 PKT" duration-ms="1437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_05_Verify_required_firstname -->
+        <test-method signature="post_test_06_Verify_required_Lastname(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:41 PKT" name="post_test_06_Verify_required_Lastname" data-provider="account_register_data" finished-at="2022-06-07T11:02:43 PKT" duration-ms="1770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_06_Verify_required_Lastname -->
+        <test-method signature="post_test_07_Verify_required_email(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:43 PKT" name="post_test_07_Verify_required_email" data-provider="account_register_data" finished-at="2022-06-07T11:02:44 PKT" duration-ms="1400" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Comparison of  Required email error code expected [124] but found [126]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Comparison of  Required email error code expected [124] but found [126]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at TestCases.Account_Register_test_cases.post_test_07_Verify_required_email(Account_Register_test_cases.java:321)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_07_Verify_required_email -->
+        <test-method signature="post_test_08_Verify_incorrect_email(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:44 PKT" name="post_test_08_Verify_incorrect_email" data-provider="account_register_data" finished-at="2022-06-07T11:02:46 PKT" duration-ms="1447" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.response.Response.path(String, String[])" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.response.Response.path(String, String[])" is null
+at TestCases.Account_Register_test_cases.post_test_08_Verify_incorrect_email(Account_Register_test_cases.java:356)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_08_Verify_incorrect_email -->
+        <test-method signature="post_test_09_Verify_confirm_password_required(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:46 PKT" name="post_test_09_Verify_confirm_password_required" data-provider="account_register_data" finished-at="2022-06-07T11:02:47 PKT" duration-ms="1075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_09_Verify_confirm_password_required -->
+        <test-method signature="post_test_10_Verify_maxlength_firstname(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:47 PKT" name="post_test_10_Verify_maxlength_firstname" data-provider="account_register_data" finished-at="2022-06-07T11:02:49 PKT" duration-ms="1903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_10_Verify_maxlength_firstname -->
+        <test-method signature="post_test_11_Verify_maxlength_LastName(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:49 PKT" name="post_test_11_Verify_maxlength_LastName" data-provider="account_register_data" finished-at="2022-06-07T11:02:50 PKT" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_11_Verify_maxlength_LastName -->
+        <test-method signature="post_test_12_Verify_maxlength_Phone(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:12, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:50 PKT" name="post_test_12_Verify_maxlength_Phone" data-provider="account_register_data" finished-at="2022-06-07T11:02:52 PKT" duration-ms="1627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_12_Verify_maxlength_Phone -->
+        <test-method signature="post_test_13_Verify_NoInDigit_Phone(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:52 PKT" name="post_test_13_Verify_NoInDigit_Phone" data-provider="account_register_data" finished-at="2022-06-07T11:02:54 PKT" duration-ms="1811" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Comparison of NonInDigit Phone  error code expected [128] but found [127]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Comparison of NonInDigit Phone  error code expected [128] but found [127]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at TestCases.Account_Register_test_cases.post_test_13_Verify_NoInDigit_Phone(Account_Register_test_cases.java:536)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_13_Verify_NoInDigit_Phone -->
+        <test-method signature="post_test_14_Verify_DiffrentPasswords(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:54 PKT" name="post_test_14_Verify_DiffrentPasswords" data-provider="account_register_data" finished-at="2022-06-07T11:02:55 PKT" duration-ms="1517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_14_Verify_DiffrentPasswords -->
+        <test-method signature="post_test_15_Verify_MinLenghtPassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:15, instance:TestCases.Account_Register_test_cases@3f91b517]" started-at="2022-06-07T11:02:55 PKT" name="post_test_15_Verify_MinLenghtPassword" data-provider="account_register_data" finished-at="2022-06-07T11:02:56 PKT" duration-ms="1215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guptell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0511144]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pakistan1122]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_15_Verify_MinLenghtPassword -->
+      </class> <!-- TestCases.Account_Register_test_cases -->
+      <class name="TestCases.Company">
+        <test-method signature="post_test_01_Create_company()[pri:1, instance:TestCases.Company@2c78d320]" started-at="2022-06-07T11:02:56 PKT" name="post_test_01_Create_company" finished-at="2022-06-07T11:02:58 PKT" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_01_Create_company -->
+      </class> <!-- TestCases.Company -->
+      <class name="TestCases.Forgot_Password_test_cases">
+        <test-method signature="post_test_01_Account_verify_without_confirmation()[pri:1, instance:TestCases.Forgot_Password_test_cases@132e0cc]" started-at="2022-06-07T11:02:58 PKT" name="post_test_01_Account_verify_without_confirmation" finished-at="2022-06-07T11:03:00 PKT" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_01_Account_verify_without_confirmation -->
+        <test-method signature="post_test_02_verify_incorrect_email_forogt_password()[pri:2, instance:TestCases.Forgot_Password_test_cases@132e0cc]" started-at="2022-06-07T11:03:00 PKT" name="post_test_02_verify_incorrect_email_forogt_password" finished-at="2022-06-07T11:03:01 PKT" duration-ms="1141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_02_verify_incorrect_email_forogt_password -->
+        <test-method signature="post_test_03_verify_required_email_for_forgot_pwd()[pri:3, instance:TestCases.Forgot_Password_test_cases@132e0cc]" started-at="2022-06-07T11:03:01 PKT" name="post_test_03_verify_required_email_for_forgot_pwd" finished-at="2022-06-07T11:03:02 PKT" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_03_verify_required_email_for_forgot_pwd -->
+        <test-method signature="post_test_04_change_password_with_wrong_old_password()[pri:4, instance:TestCases.Forgot_Password_test_cases@132e0cc]" started-at="2022-06-07T11:03:02 PKT" name="post_test_04_change_password_with_wrong_old_password" finished-at="2022-06-07T11:03:05 PKT" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_04_change_password_with_wrong_old_password -->
+        <test-method signature="post_test_05_Minimum_length_password_for_changing_password()[pri:5, instance:TestCases.Forgot_Password_test_cases@132e0cc]" started-at="2022-06-07T11:03:05 PKT" name="post_test_05_Minimum_length_password_for_changing_password" finished-at="2022-06-07T11:03:08 PKT" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_05_Minimum_length_password_for_changing_password -->
+        <test-method signature="post_test_06_change_password()[pri:6, instance:TestCases.Forgot_Password_test_cases@132e0cc]" started-at="2022-06-07T11:03:08 PKT" name="post_test_06_change_password" finished-at="2022-06-07T11:03:11 PKT" duration-ms="3197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_test_06_change_password -->
+      </class> <!-- TestCases.Forgot_Password_test_cases -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
